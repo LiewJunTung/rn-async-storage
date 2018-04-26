@@ -22,6 +22,7 @@ For ios you can use all function of AsyncStorage
  - setItem(key, value)
  - getItem(key)
  - getAllKeys()
+ - removeItem(key)
  - clear()
 
 If you need other methods from AsynStorage let me know

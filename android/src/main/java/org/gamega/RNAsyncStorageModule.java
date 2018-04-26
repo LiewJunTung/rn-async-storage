@@ -67,6 +67,24 @@ public class RNAsyncStorageModule extends ReactContextBaseJavaModule {
          }
      }
 
+    /**
+     * Remove Item
+     * @param promise
+     */
+    @ReactMethod
+    public void removeItem(String key, Promise promise){
+        try {
+            SharedPreferences sharedPref = getCurrentActivity().getPreferences(Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.remove(key);
+            editor.commit();
+            promise.resolve(null);
+        }catch (Exception e){
+            promise.reject(e);
+            e.printStackTrace();
+        }
+    }
+
      /**
       * Clear storage
       */
