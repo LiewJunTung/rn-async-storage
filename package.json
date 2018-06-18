@@ -1,25 +1,25 @@
 
 {
-  "name": "rn-async-storage",
-  "version": "1.0.23",
+  "name": "rnas",
+  "version": "1.0.28",
   "description": "This is very quickly solution for fix issue  https://github.com/facebook/react-native/issues/14101 ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/gadfil/rn-async-storage",
+  "homepage": "https://github.com/liewjuntung/rn-async-storage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gadfil/rn-async-storage.git"
+    "url": "https://github.com/liewjuntung/rn-async-storage.git"
   },
   "keywords": [
     "react-native",
     "async-storage",
     "android"
   ],
-  "author": "Oleg Gamega",
+  "author": "Liew Jun Tung",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.50.3"
   }
 }

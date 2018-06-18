@@ -26,7 +26,7 @@ public class RNAsyncStorageModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "RNAsyncStorage";
+    return "AndroidRNAsyncStorage";
   }
 
    /**
